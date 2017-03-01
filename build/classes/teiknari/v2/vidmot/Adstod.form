@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panBakgrunnur" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panBakgrunnur" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panBakgrunnur">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="labLeidbeiningar" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="bLokaGlugga" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="labLeidbeiningar" min="-2" pref="51" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" min="-2" pref="504" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="bLokaGlugga" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="bLokaGlugga">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Loka glugga"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bLokaGluggaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labLeidbeiningar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Lei&#xf0;beiningar"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="panOpnaHenda">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Opna/henda bl&#xf6;&#xf0;um">
+                    <Property name="tabTitle" type="java.lang.String" value="Opna/henda bl&#xf6;&#xf0;um"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labOpnaHenda" alignment="1" pref="629" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spOpnaHenda" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="labOpnaHenda" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spOpnaHenda" pref="420" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="spOpnaHenda">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtOpnaHenda">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="- N&#xfd;tt bla&#xf0;:&#xa;    1. Til &#xfe;ess a&#xf0; opna n&#xfd;tt bla&#xf0; &#xfe;arf a&#xf0; smella &#xe1; &quot;Opna n&#xfd;tt bla&#xf0;&quot;&#xa;       hnappinn uppi &#xed; vinstra horninu. Forriti&#xf0; opnast &#xfe;&#xf3; sj&#xe1;lfkrafa&#xa;       me&#xf0; eitt autt bla&#xf0;.&#xa;    2. &#xde;egar n&#xfd;tt bla&#xf0; er opna&#xf0; &#xfe;&#xe1; opnast gluggi &#xfe;ar sem h&#xe6;gt er a&#xf0;&#xa;       velja vinnuheiti &#xe1; myndina. &#xde;&#xf3; er h&#xe6;gt a&#xf0; skila au&#xf0;u &#xed;&#xa;       glugganum og &#xfe;&#xe1; f&#xe6;r myndin sj&#xe1;lfkrafa vinnuheiti&#xf0;&#xa;       Mynd(n&#xfa;mer myndar).&#xa;    3. H&#xe6;gt er a&#xf0; breyta vinnuheiti &#xe1; mynd me&#xf0; &#xfe;v&#xed; a&#xf0; fara &#xed;&#xa;       Skr&#xe1; - Breyta vinnuheiti &#xe1; mynd.&#xa;    4. H&#xe6;gt er a&#xf0; hafa allt a&#xf0; 5 myndir opnar &#xed; einu.&#xa;- Henda bla&#xf0;i:&#xa;    1. Til &#xfe;ess a&#xf0; loka bla&#xf0;i er smellt &#xe1; &quot;Henda bla&#xf0;i&quot; hnappinn uppi&#xa;       &#xed; h&#xe6;gra horni vi&#xf0;m&#xf3;tsins.&#xa;    2. &#xde;egar smellt er &#xe1; hnappinn er &#xfe;eirri mynd loka&#xf0; sem er opin &#xed;&#xa;       vi&#xf0;m&#xf3;tinu &#xfe;&#xe1; stundina.&#xa;    3. Ef b&#xfa;i&#xf0; er a&#xf0; teikna &#xe1; bla&#xf0;i&#xf0;, &#xfe;egar loka &#xe1; mynd, &#xfe;&#xe1; opnast&#xa;       sta&#xf0;festingargluggi &#xe1;&#xf0;ur en myndinni er svo varanlega hent.&#xa;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="labOpnaHenda">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tempus Sans ITC" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="A&#xf0; opna og henda bl&#xf6;&#xf0;um"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panVistaOpna">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Vista/opna myndir">
+                    <Property name="tabTitle" type="java.lang.String" value="Vista/opna myndir"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labVistaOpna" alignment="0" pref="629" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spVistaOpna" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labVistaOpna" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spVistaOpna" pref="420" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labVistaOpna">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tempus Sans ITC" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="A&#xf0; vista og opna myndir"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="spVistaOpna">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtVistaOpna">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="- Vista mynd:&#xa;    1. Ef vista &#xe1; mynd &#xfe;arf h&#xfa;n a&#xf0; vera valin &#xe1; vi&#xf0;m&#xf3;ti.&#xa;    2. Til &#xfe;ess a&#xf0; vista er fari&#xf0; &#xed; Skr&#xe1; - Vista mynd.&#xa;    3. Einungis er h&#xe6;gt a&#xf0; vista myndir sem PNG myndir.&#xa;    4. &#xde;egar vista glugginn er opna&#xf0;ur er sj&#xe1;lfkrafa lagt til nafn sem er&#xa;       &#xfe;&#xe1; sama nafn og vinnuheiti myndarinnar hefur. &#xde;&#xf3; er h&#xe6;gt a&#xf0; breyta&#xa;       &#xfe;v&#xed; ef vill.&#xa;    5. Passa ver&#xf0;ur upp&#xe1; a&#xf0; nafn myndar endi &#xe1; .png &#xfe;egar vista&#xf0; er. &#xa;- Opna mynd:&#xa;    1. Til &#xfe;ess a&#xf0; opna mynd er fari&#xf0; &#xed; Skr&#xe1; - Opna mynd.&#xa;    2. &#xde;essi valm&#xf6;guleiki er fyrst og fremst hugsa&#xf0;ur til &#xfe;ess a&#xf0; opna&#xa;       myndir sem hafa &#xe1;&#xf0;ur veri&#xf0; teikna&#xf0;ar &#xed; &#xfe;essu forriti, og &#xfe;v&#xed; er&#xa;       ekki h&#xe6;gt a&#xf0; hafa &#xe1;hrif &#xe1; st&#xe6;r&#xf0; myndarinnar &#xfe;egar h&#xfa;n er opnu&#xf0;.&#xa;    3. &#xde;r&#xe1;tt fyrir atri&#xf0;i 2. er h&#xe6;gt a&#xf0; opna flestar myndir af tagi PNG&#xa;       og einnig er h&#xe6;gt a&#xf0; opna myndir af tagi JPEG. H&#xe9;r ver&#xf0;ur &#xfe;&#xf3; a&#xf0;&#xa;       hafa &#xed; huga a&#xf0; ef myndin er minni en bla&#xf0;i&#xf0; &#xfe;&#xe1; opnast myndin uppi&#xa;       &#xed; h&#xe6;gra horni bla&#xf0;sins, og ef myndin er st&#xe6;rri, &#xfe;&#xe1; er einungis&#xa;       h&#xe6;gt a&#xf0; sj&#xe1; hluta af myndinni."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panAlmennt">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Almenn myndvinnsla">
+                    <Property name="tabTitle" type="java.lang.String" value="Almenn myndvinnsla"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labAlmennt" alignment="0" pref="629" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spAlmennt" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labAlmennt" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spAlmennt" pref="420" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labAlmennt">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tempus Sans ITC" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Almennt um myndvinnsluna"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="spAlmennt">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtAlmennt">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="- St&#xed;ga skref til baka (e. undo):&#xa;    1. Ef mist&#xf6;k hafa or&#xf0;i&#xf0; vi&#xf0; teikningu, t.d. l&#xed;na teiknu&#xf0; sem&#xa;       heppna&#xf0;ist ekki n&#xf3;gu vel, &#xfe;&#xe1; er h&#xe6;gt smella &#xe1; takkann me&#xf0; bl&#xe1;u&#xa;       &#xf6;rinni sem v&#xed;sar til vinstri, uppi &#xed; h&#xe6;gra horni vi&#xf0;m&#xf3;tsins.&#xa;    2. H&#xe6;gt er a&#xf0; st&#xed;ga &#xf6;ll skref til baka er var&#xf0;a teikningu &#xe1; bla&#xf0;inu&#xa;       nema f&#xf6;tua&#xf0;ger&#xf0;ir.&#xa;    3. Ef reynt er a&#xf0; hella me&#xf0; f&#xf6;tu yfir mynd kemur sta&#xf0;festingargluggi&#xa;       til a&#xf0; koma &#xed; veg fyrir &#xf3;h&#xf6;pp. Ef hellt er &#xe1; bakgrunn er&#xa;       einfaldlega h&#xe6;gt a&#xf0; velja gamla litinn og hella &#xe1; n&#xfd;.&#xa;- St&#xed;ga skref &#xe1;fram (e. redo):&#xa;    1. H&#xe6;gt er a&#xf0; smella &#xe1; takkann me&#xf0; bl&#xe1;u &#xf6;rina til h&#xe6;gri, uppi &#xed; h&#xe6;gra&#xa;       horni vi&#xf0;m&#xf3;tsins, til a&#xf0; st&#xed;ga skref &#xe1;fram.&#xa;    2. &#xde;etta er &#xfe;&#xf3; einungis h&#xe6;gt a&#xf0; gera eftir undo a&#xf0;ger&#xf0;ir, ef t.d. &#xfd;tt&#xa;       var of oft &#xe1; undo takkann.&#xa;- Hreinsa mynd:&#xa;    1. H&#xe6;gt er a&#xf0; hreinsa mynd hven&#xe6;r sem er me&#xf0; &#xfe;v&#xed; a&#xf0; smella &#xe1;&#xa;       &quot;Hreinsa bla&#xf0;&quot;.&#xa;    2. &#xde;essi a&#xf0;ger&#xf0; hreinsar alla teikningu af bla&#xf0;inu sem er opi&#xf0;, &#xfe;&#xe1;&#xa;       stundina, &#xe1; vi&#xf0;m&#xf3;tinu.&#xa;    3. Ef teikna&#xf0; hefur veri&#xf0; &#xe1; bla&#xf0;i&#xf0; kemur upp sta&#xf0;festingargluggi &#xe1;&#xf0;ur&#xa;       en bla&#xf0; er svo varanlega hreinsa&#xf0;."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panStillingTola">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Stilling t&#xf3;la">
+                    <Property name="tabTitle" type="java.lang.String" value="Stilling t&#xf3;la"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labStillingTola" alignment="0" pref="629" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spStillingTola" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labStillingTola" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spStillingTola" pref="420" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labStillingTola">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tempus Sans ITC" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Stilling t&#xf3;la fyrir teikningu"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="spStillingTola">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtStillingTola">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="- Um liti:&#xa;    1. H&#xe6;gt er a&#xf0; velja liti me&#xf0; &#xfe;v&#xed; a&#xf0; smella &#xe1; vi&#xf0;eigandi litahj&#xf3;l &#xed;&#xa;       litahlutanum Litur e&#xf0;a hlutanum Fylling, eftir &#xfe;v&#xed; sem vi&#xf0; &#xe1;, sem&#xa;       eru efst &#xed; vi&#xf0;m&#xf3;tinu fyrir mi&#xf0;ju.&#xa;    2. H&#xe6;gt er a&#xf0; sj&#xe1; n&#xfa;verandi valda liti &#xed; st&#xf3;ru litagluggunum &#xed; hvorum&#xa;       litahlutanum fyrir sig.&#xa;    3. liturinn &#xed; hlutanum Litur hefur &#xe1;hrif &#xe1; &#xf6;ll t&#xf3;l sem h&#xe6;gt er a&#xf0;&#xa;       nota vi&#xf0; teikningu, einnig texta-t&#xf3;li&#xf0;. &#xcd; tilviki forma hefur&#xa;       &#xfe;essi litur &#xe1;hrif &#xe1; &#xfa;tl&#xed;nurnar.&#xa;    4. Liturinn Fylling hefur einungis &#xe1;hrif &#xe1; litinn sem er nota&#xf0;ur &#xed;&#xa;       fyllingu &#xe1; formum.&#xa;    5. &#xde;egar litir hafa veri&#xf0; valdir vistast n&#xfd;legustu litirnir &#xed; litlu&#xa;       litagluggunum &#xfe;remur &#xed; vi&#xf0;eigandi litahluta. H&#xe6;gt er a&#xf0; smella &#xe1;&#xa;       litagluggana til a&#xf0; setja &#xfe;ann lit sem n&#xfa;verandi lit.&#xa;- Um st&#xe6;r&#xf0;:&#xa;    1. St&#xe6;r&#xf0; hefur &#xe1;hrif &#xe1; &#xf6;ll t&#xf3;l sem h&#xe6;gt er a&#xf0; nota vi&#xf0; teikningu nema&#xa;       auglj&#xf3;slega f&#xf6;tuna, sem fyllir alla myndina, og svo&#xa;       &#xfe;r&#xed;v&#xed;ddarkassana.&#xa;    2. &#xcd; tilviki forma hefur st&#xe6;r&#xf0; &#xe1;hrif &#xe1; st&#xe6;r&#xf0; &#xfa;tl&#xed;na.&#xa;- Um gegns&#xe6;i:&#xa;    1. H&#xe6;gt er a&#xf0; stilla gegns&#xe6;i allra t&#xf3;la, nema f&#xf6;tu, ne&#xf0;arlega &#xed;&#xa;       vinstra horni vi&#xf0;m&#xf3;ts."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panTol1">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="T&#xf3;l 1/2">
+                    <Property name="tabTitle" type="java.lang.String" value="T&#xf3;l 1/2"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labTol1" alignment="0" pref="629" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spTol1" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labTol1" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spTol1" pref="420" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labTol1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tempus Sans ITC" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Um pensil, strokle&#xf0;ur og spreybr&#xfa;sa"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="spTol1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtTol1">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="- Almennt:&#xa;    1. &#xcd; upphafi er ekkert t&#xf3;l vali&#xf0; og &#xfe;v&#xed; ekkert h&#xe6;gta&#xf0; teikna &#xe1; mynd&#xa;       fyrr en t&#xf3;l e&#xf0;a form er vali&#xf0;.&#xa;    2. Einungis er h&#xe6;gt a&#xf0; velja eitt t&#xf3;l e&#xf0;a form &#xed; einu.&#xa;- Pensill:&#xa;    1. Pensillinn virkar eins og venjulegur pensill, &#xfe;.e. h&#xe6;gt er a&#xf0;&#xa;       teikna hva&#xf0; sem er fr&#xed;hendis.&#xa;    2. &#xc1;bending 1: Ef gegns&#xe6;i pensils er l&#xe6;kka&#xf0; &#xed; u.&#xfe;.b. 50%, &#xfe;&#xe1; f&#xe1;st&#xa;       nokkurs konar t&#xfa;sspenna&#xe1;hrif.&#xa;    3. &#xc1;bending 2: Ef gegns&#xe6;i&#xf0; er l&#xe6;kka&#xf0; enn meira, t.d. &#xed; u.&#xfe;.b. 15%,&#xa;       &#xfe;&#xe1; f&#xe1;st nokkurs konar vatnslita&#xe1;hrif.&#xa;- Strokle&#xf0;ur:&#xa;    1. Strokle&#xf0;ri&#xf0; virkar eins og pensillinn nema &#xfe;a&#xf0; tekur alltaf mi&#xf0;&#xa;       af bakgrunnslitnum &#xed; hvert sinn, &#xfe;annig ekki &#xfe;arf a&#xf0; hafa &#xe1;hyggjur&#xa;       af &#xfe;v&#xed; a&#xf0; stroka &#xfa;t litinn ef f&#xf6;tu var hellt yfir.&#xa;    2. St&#xe6;r&#xf0; hefur a&#xf0;eins &#xf6;&#xf0;ruv&#xed;si &#xe1;hrif &#xe1; strokle&#xf0;ri&#xf0; en &#xf6;nnut t&#xf3;l, &#xfe;.e.&#xa;       strokle&#xf0;ri&#xf0; er alltaf tiltekinni fastri st&#xe6;r&#xf0; st&#xe6;rri, sem eykur&#xa;       &#xfe;&#xe6;gindi.&#xa;- Spreybr&#xfa;si:&#xa;    1. Br&#xfa;sinn er fr&#xed;hendis teiknit&#xf3;l.&#xa;    2. Spreyi&#xf0; kemur talsvert h&#xe6;gar en ma&#xf0;ur er e.t.v. vanur &#xed; t.d.&#xa;       Microsoft Paint, en &#xfe;a&#xf0; eykur stj&#xf3;rnun &#xe1; spreyinu sj&#xe1;lfu."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panTol2">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="T&#xf3;l 2/2">
+                    <Property name="tabTitle" type="java.lang.String" value="T&#xf3;l 2/2"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labTol2" alignment="0" pref="629" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spTol2" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labTol2" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spTol2" pref="420" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labTol2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tempus Sans ITC" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Um Texta-t&#xf3;li&#xf0; og form"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="spTol2">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtTol2">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="- Texta-t&#xf3;li&#xf0;:&#xa;    1. &#xde;egar texta-t&#xf3;li&#xf0; er vali&#xf0; &#xfe;&#xe1; er h&#xe6;gt a&#xf0; smella &#xe1; sta&#xf0;setningu &#xe1;&#xa;       bla&#xf0;inu &#xfe;ar sem textinn &#xe1; a&#xf0; birtast.&#xa;    2. &#xde;egar smellt er &#xe1; bla&#xf0;i&#xf0; &#xfe;&#xe1; opnast gluggi &#xfe;ar sem h&#xe6;gt er a&#xf0; skrifa&#xa;       textann sem er svo settur &#xe1; bla&#xf0;i&#xf0;.&#xa;- Form:&#xa;    1. H&#xe6;gt er a&#xf0; velja &#xe1; milli &#xfd;missa forma sem heg&#xf0;a s&#xe9;r &#xf6;ll samb&#xe6;rilega&#xa;       nema &#xfe;r&#xed;v&#xed;ddarkassinn.&#xa;    2. Ef t.d. ferhyrningur er valinn &#xfe;&#xe1; er h&#xe6;gt a&#xf0; smella hvar sem er &#xe1;&#xa;       bla&#xf0;i&#xf0; og draga svo me&#xf0; m&#xfa;sinni &#xed; hva&#xf0;a &#xe1;tt sem er &#xfe;ar til r&#xe9;ttu&#xa;       formi er n&#xe1;&#xf0;.&#xa;    3. &#xde;egar m&#xfa;sin er dregin me&#xf0; form &#xfe;&#xe1; s&#xe9;st allan t&#xed;mann hvernig formi&#xf0;&#xa;       myndi l&#xed;ta &#xfa;t ef m&#xfa;sinni v&#xe6;ri sleppt &#xe1; hverri stundu.&#xa;    4. H&#xe6;gt er a&#xf0; velja a&#xf0; hafa form fyllt me&#xf0; &#xf6;&#xf0;rum lit me&#xf0; &#xfe;v&#xed; a&#xf0; smella&#xa;       &#xe1; &quot;fylling&quot; fyrir ne&#xf0;an formin &#xed; formglugganum fyrir mi&#xf0;ju vinstra&#xa;       megin. Einnig er h&#xe6;gt a&#xf0; smella beint &#xe1; fyllingarlitinn og &#xfe;&#xe1;&#xa;       stillist &quot;fylling&quot; sj&#xe1;lfkrafa.&#xa;    5. &#xde;egar smellt er &#xe1; &#xfe;r&#xed;v&#xed;ddarkassann ver&#xf0;ur sj&#xe1;lfkrafa ekki h&#xe6;gt a&#xf0;&#xa;       velja st&#xe6;r&#xf0;, &#xfe;ar sem h&#xfa;n getur ekki haft &#xe1;hrif &#xe1; &#xfa;tl&#xed;nurnar, og&#xa;       einnig er &quot;fylling&quot; sj&#xe1;lfkrafa stillt og ekki er h&#xe6;gt a&#xf0; hafa &#xe1;hrif&#xa;       &#xe1; hana."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
